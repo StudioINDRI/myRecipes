@@ -1,2 +1,5 @@
-[configPos.lua]
-File contenitore di Coordinate utili (vector2, vector3).
+[config.lua]
+Contenitore di tabelle per configurazioni:
+_IPLs
+_Eventi
+_Animazioni
