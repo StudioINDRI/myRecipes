@@ -1,7 +1,23 @@
 {
   "assets": {
     "fex.fxworld": {
-      "enabled": true
+      "enabled": false
+    },
+    "[fex]\\fe_extended": {
+      "enabled": false,
+      "restartOnChange": false
+    },
+    "[fex-addons]\\fex_addons": {
+      "enabled": false,
+      "restartOnChange": false
+    },
+    "[fex-addons]\\fex_addon": {
+      "enabled": false,
+      "restartOnChange": false
+    },
+    "[fex]\\loadscreen": {
+      "enabled": false,
+      "restartOnChange": false
     }
   },
   "serverUpdateChannel": "recommended",

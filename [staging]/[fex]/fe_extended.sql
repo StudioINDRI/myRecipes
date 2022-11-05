@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS `es_extended_rpbase`;
-USE `es_extended_rpbase`;
+CREATE DATABASE IF NOT EXISTS `fe_extended_db`;
+USE `fe_extended_db`;
 
 CREATE TABLE `users` (
 	`identifier` VARCHAR(60) NOT NULL,

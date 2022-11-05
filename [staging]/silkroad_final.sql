@@ -1,4 +1,4 @@
-USE `es_extended_rpbase`;
+USE `fx_extended_db`;
 
 CREATE TABLE IF NOT EXISTS `allhousing` (
   `id` int(11) NOT NULL,
