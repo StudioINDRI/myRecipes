@@ -1,7 +1,9 @@
 {
-  "name": "FEX",
-  "assets": {},
-  "createdAt": "2022-11-05T14:05:39.614Z",
+  "assets": {
+    "fex.fxworld": {
+      "enabled": true
+    }
+  },
   "serverUpdateChannel": "recommended",
   "systemResources": [
     "basic-gamemode",
@@ -16,5 +18,7 @@
     "webpack",
     "yarn"
   ],
+  "name": "FEX",
+  "createdAt": "2022-11-05T14:05:39.614Z",
   "variables": {}
 }
