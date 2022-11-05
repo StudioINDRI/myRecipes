@@ -1,4 +1,4 @@
-#	StudioINDRI FIVEM Risources Repository
+#	StudioINDRI FiveM Risources Repository
 
 #	myResources
  
