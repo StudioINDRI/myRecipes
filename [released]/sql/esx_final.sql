@@ -1,0 +1,82 @@
+CREATE DATABASE IF NOT EXISTS `silkroaddb`;
+
+
+ALTER DATABASE `silkroaddb`
+	DEFAULT CHARACTER SET UTF8MB4;
+	
+ALTER DATABASE `silkroaddb`
+	DEFAULT COLLATE UTF8MB4_UNICODE_CI;
+
+CREATE TABLE `users` (
+	`identifier` VARCHAR(60) NOT NULL,
+	`accounts` LONGTEXT NULL DEFAULT NULL,
+	`group` VARCHAR(50) NULL DEFAULT 'user',
+	`inventory` LONGTEXT NULL DEFAULT NULL,
+	`job` VARCHAR(20) NULL DEFAULT 'unemployed',
+	`job_grade` INT NULL DEFAULT 0,
+	`loadout` LONGTEXT NULL DEFAULT NULL,
+	`position` VARCHAR(255) NULL DEFAULT '{"x":435.3877,"y":4819.6968,"z":-58.9997,"heading":79.6677}',  
+
+	PRIMARY KEY (`identifier`)
+) ENGINE=InnoDB;
+
+
+CREATE TABLE `items` (
+	`name` VARCHAR(50) NOT NULL,
+	`label` VARCHAR(50) NOT NULL,
+	`weight` INT NOT NULL DEFAULT 1,
+	`rare` TINYINT NOT NULL DEFAULT 0,
+	`can_remove` TINYINT NOT NULL DEFAULT 1,
+
+	PRIMARY KEY (`name`)
+) ENGINE=InnoDB;
+
+
+CREATE TABLE `job_grades` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`job_name` VARCHAR(50) DEFAULT NULL,
+	`grade` INT NOT NULL,
+	`name` VARCHAR(50) NOT NULL,
+	`label` VARCHAR(50) NOT NULL,
+	`salary` INT NOT NULL,
+	`skin_male` LONGTEXT NOT NULL,
+	`skin_female` LONGTEXT NOT NULL,
+
+	PRIMARY KEY (`id`)
+) ENGINE=InnoDB;
+
+
+INSERT INTO `job_grades` VALUES (1,'unemployed',0,'unemployed','Unemployed',200,'{}','{}');
+
+CREATE TABLE `jobs` (
+	`name` VARCHAR(50) NOT NULL,
+	`label` VARCHAR(50) DEFAULT NULL,
+
+	PRIMARY KEY (`name`)
+) ENGINE=InnoDB;
+
+
+INSERT INTO `jobs` VALUES ('unemployed','Unemployed');
+
+ALTER TABLE `users` ADD COLUMN `skin` LONGTEXT NULL DEFAULT NULL;
+
+CREATE TABLE `multicharacter_slots` (
+	`identifier` VARCHAR(60) NOT NULL,
+	`slots` INT(11) NOT NULL,
+	PRIMARY KEY (`identifier`) USING BTREE,
+	INDEX `slots` (`slots`) USING BTREE
+) ENGINE=InnoDB;
+
+ALTER TABLE `users` ADD COLUMN
+	`disabled` TINYINT(1) NULL DEFAULT '0';
+
+ALTER TABLE `users`
+	ADD COLUMN `firstname` VARCHAR(16) NULL DEFAULT NULL,
+	ADD COLUMN `lastname` VARCHAR(16) NULL DEFAULT NULL,
+	ADD COLUMN `dateofbirth` VARCHAR(10) NULL DEFAULT NULL,
+	ADD COLUMN `sex` VARCHAR(1) NULL DEFAULT NULL,
+	ADD COLUMN `height` INT NULL DEFAULT NULL
+;
+
+
+
