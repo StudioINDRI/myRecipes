@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+	<disabledFiles />
+	<includedXmlFiles />
+	<includedDataFiles />
+	<dataFiles>
+		<Item>
+			<filename>dlc_mafia_house:/%PLATFORM%/levels/gta5/mafia_house.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="false" />
+			<disabled value="false" />
+			<persistent value="false" />
+		</Item>
+		<Item>
+			<filename>dlc_mafia_house:/%PLATFORM%/levels/gta5/mafia_house_metadata.rpf</filename>
+			<fileType>RPF_FILE</fileType>
+			<overlay value="false" />
+			<disabled value="false" />
+			<persistent value="false" />
+			<contents>CONTENTS_DLC_MAP_DATA</contents>
+		</Item>
+	</dataFiles>
+	<contentChangeSets>
+		<Item>
+			<changeSetName>CCS_mafia_house_NG_STREAMING_MAP</changeSetName>
+			<filesToEnable>
+				<Item>dlc_mafia_house:/%PLATFORM%/levels/gta5/mafia_house.rpf</Item>
+				<Item>dlc_mafia_house:/%PLATFORM%/levels/gta5/mafia_house_metadata.rpf</Item>
+			</filesToEnable>
+			<executionConditions>
+				<activeChangesetConditions>
+				</activeChangesetConditions>
+				<genericConditions>$level=MO_JIM_L11</genericConditions>
+			</executionConditions>
+		</Item>
+	</contentChangeSets>
+	<patchFiles />
+</CDataFileMgr__ContentsOfDataFileXml>
