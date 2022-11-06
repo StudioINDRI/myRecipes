@@ -18,6 +18,137 @@
     "[fex]\\loadscreen": {
       "enabled": false,
       "restartOnChange": false
+    },
+    "fexmap.fxworld": {
+      "enabled": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx]\\async": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx]\\cron": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx]\\es_extended": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx]\\esx_context": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx]\\esx_skin": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx]\\esx_textui": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx]\\skinchanger": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_accessories": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_addonaccount": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_addoninventory": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_allowlist": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_ambulancejob": {
+      "enabled": false,
+      "restartOnChange": false
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_animations": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_bankerjob": {
+      "enabled": false,
+      "restartOnChange": false
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_banking": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_barbershop": {
+      "enabled": false,
+      "restartOnChange": false
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_basicneeds": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_billing": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_cruisecontrol": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_datastore": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_license": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_mechanicjob": {
+      "enabled": false,
+      "restartOnChange": false
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_optionalneeds": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_policejob": {
+      "enabled": false,
+      "restartOnChange": false
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_property": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_rpchat": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_service": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_sit": {
+      "enabled": false,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_society": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_status": {
+      "enabled": true,
+      "restartOnChange": true
+    },
+    "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]\\esx_taxijob": {
+      "enabled": false,
+      "restartOnChange": false
+    },
+    "oxmysql\\oxmysql": {
+      "enabled": true,
+      "restartOnChange": true
     }
   },
   "serverUpdateChannel": "recommended",
