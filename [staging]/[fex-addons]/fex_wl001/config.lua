@@ -3,16 +3,16 @@ Config.Allign = 'bottom-left'
 
 --Incarichi
 Config.Incarico = {
-    ['coords'] = {['x'] = 93.2961, ['y'] = -1304.7065, ['z'] =  1.5037}, 
-    ['spawnpoint'] = {['x'] = 86.9727, ['y'] = -1299.1919, ['z'] = 29.2364, ['h'] = 129.1007},   
-    ['vehicle'] = 'ratloader'
+    ['coords'] = {['x'] = 764.4362, ['y'] = -730.3197, ['z'] = 0.4461},
+    ['spawnpoint'] = {['x'] = 733.2727, ['y'] = -724.1179, ['z'] = 26.6139, ['h'] = 85.9688},
+    ['vehicle'] = 'scrap'
 }
 
 --Magazzino
 Config.PuntoVendita = {
 	PuntoVendita = {
 		Pos = {
-			{x = 92.3215, y = -1291.0798, z =  1.5037}
+			{x = 763.4091, y = -716.4404, z = 0.4461}
 		}
 	}
 }
@@ -22,7 +22,7 @@ Config.BlipSprite = 474
 Config.BlipDisplay = 4
 Config.BlipScale = 0.90
 Config.BlipColour = 5
-Config.BlipName = "Magazzino Commerciale"   --Aggiungere nome attività
+Config.BlipName = "Magazzino Forniture"   --Aggiungere nome attività
 
 Config.KeyToOpenShop = 38													
 Config.ShopMarker = 27 														
@@ -35,33 +35,32 @@ Config.ItemsPuntoVendita = {
 	--{ itemName = 'james_fishingrod', label = 'Canna da pesca', BuyPuntoVendita = true, BuyPrice = 100, SellPuntoVendita = true, SellPrice = 65 },
 	--{ itemName = 'james_fishingbait', label = 'Esche', BuyPuntoVendita = true, BuyPrice = 3, SellPuntoVendita = true, SellPrice = 1 },
 	--{ itemName = 'james_fish', label = 'Pesce', BuyPuntoVendita = false, BuyPrice = 500, SellPuntoVendita = true, SellPrice = 36 },
-	{ itemName = 'packaged_chicken', label = 'Pollo confezionato', BuyPuntoVendita = false, BuyPrice = 500, SellPuntoVendita = true, SellPrice = 80 },
-	{ itemName = 'cutted_wood', label = 'Confezione di tavole', BuyPuntoVendita = false, BuyPrice = 500, SellPuntoVendita = true, SellPrice = 80 },
-	
-	--{ itemName = 'iron', label = 'Ferro', BuyPuntoVendita = false, BuyPrice = 3500, SellPuntoVendita = true, SellPrice = 80 },
+	{ itemName = 'woodforniturepart', label = 'Parte Fornitura Legno', BuyPuntoVendita = false, BuyPrice = 500, SellPuntoVendita = true, SellPrice = 80 },
+	{ itemName = 'metalcomp', label = 'Componente in Metallo Forniture', BuyPuntoVendita = false, BuyPrice = 500, SellPuntoVendita = true, SellPrice = 80 },
+	{ itemName = 'forniturefinal', label = 'Fornitura da Casa', BuyPuntoVendita = false, BuyPrice = 3500, SellPuntoVendita = true, SellPrice = 800 },
 	--{ itemName = 'gold', label = 'Oro', BuyPuntoVendita = false, BuyPrice = 3500, SellPuntoVendita = true, SellPrice = 100 },
 	--{ itemName = 'copper', label = 'Rame', BuyPuntoVendita = false, BuyPrice = 3500, SellPuntoVendita = true, SellPrice = 40 },
-	{ itemName = 'washedstones', label = 'Pietra Lavata', BuyPuntoVendita = false, BuyPrice = 3500, SellPuntoVendita = true, SellPrice = 80},
+	--{ itemName = 'washedstones', label = 'Pietra Lavata', BuyPuntoVendita = false, BuyPrice = 3500, SellPuntoVendita = true, SellPrice = 80},
 
-	{ itemName = 'meat', label = 'Carne', BuyPuntoVendita = true, BuyPrice = 5, SellPuntoVendita = true, SellPrice = 80},
-	{ itemName = 'leather', label = 'Pelle', BuyPuntoVendita = false, BuyPrice = 3500, SellPuntoVendita = true, SellPrice = 80},
+	--{ itemName = 'meat', label = 'Carne', BuyPuntoVendita = true, BuyPrice = 5, SellPuntoVendita = true, SellPrice = 80},
+	--{ itemName = 'leather', label = 'Pelle', BuyPuntoVendita = false, BuyPrice = 3500, SellPuntoVendita = true, SellPrice = 80},
 
 	--{ itemName = 'papavero', label = 'Papavero', BuyPuntoVendita = false, BuyPrice = 35000, SellPuntoVendita = true, SellPrice = 20 },
 
-	{ itemName = 'scatolalatte', label = 'Latte', BuyPuntoVendita = true, BuyPrice = 2, SellPuntoVendita = true, SellPrice = 80},
+	--{ itemName = 'scatolalatte', label = 'Latte', BuyPuntoVendita = true, BuyPrice = 2, SellPuntoVendita = true, SellPrice = 80},
 	
 }
 
 
 Config.Lavori = {
-    ['Minatore'] = {
+    ['Ricerca Materiale: Legname'] = {
         ['RaccoltaLavori'] = {
             ['coords'] = {  --Coordinate punti raccolta
-                {['x'] = -593.5397, ['y'] = 2084.1799, ['z'] = 131.3883},
-                {['x'] = -592.1488, ['y'] = 2079.0759, ['z'] = 131.3930},
-                {['x'] = -591.2046, ['y'] = 2075.2956, ['z'] = 131.3467},
-                {['x'] = -590.1557, ['y'] = 2071.843, ['z'] = 131.26698},
-                {['x'] = -588.7528, ['y'] = 2066.8688, ['z'] = 131.0827},
+                {['x'] = 1206.7441, ['y'] = -1334.4103, ['z'] = 35.2269},
+                {['x'] = 1208.4127, ['y'] = -1334.5913, ['z'] = 35.2269},
+                {['x'] = 1210.4083, ['y'] = -1337.2200, ['z'] = 35.2269},
+                {['x'] = 1208.4922, ['y'] = -1338.3671, ['z'] = 35.2269},
+                {['x'] = 1206.5702, ['y'] = -1338.1785, ['z'] = 35.2269},
             },
             ['unique'] ='RaccoltaLavori Minatore',
             ['durata'] = 1700,
@@ -70,8 +69,8 @@ Config.Lavori = {
             ['anim'] = "stand_cash_in_bag_loop",
             ['propmodel'] = nil,
             ['props2'] = nil,
-            ['item'] = 'stones',
-            ['count'] = 1,
+            ['item'] = 'cutted_wood',
+            ['count'] = 5,
             ['notify'] = 'Hai raccolto',
             ['Blips'] = {
                 ['sprite'] = 12,
@@ -81,17 +80,17 @@ Config.Lavori = {
         },
         ['ProcessoLavori'] = {
             ['coords'] = {  --Coordinate punti processo
-                {['x'] = 1915.3554, ['y'] = 582.75567, ['z'] = 176.36744},
+                {['x'] = -160.2769, ['y'] = -996.3654, ['z'] = 114.1361},
             },
             ['unique'] ='ProcessoLavori Minatore',
-            ['durata'] = 1700,
+            ['durata'] = 5000,
             ['label'] = 'Processando',
             ['animdict'] = "mp_take_money_mg",
             ['anim'] = "stand_cash_in_bag_loop",
             ['propmodel'] = nil,
             ['props2'] = nil,
-            ['item'] = 'washedstones',
-            ['count'] = 2,
+            ['item'] = 'woodforniturepart',
+            ['count'] = 3,
             ['notify'] = 'Hai processato',
             ['Blips'] = {
                 ['sprite'] = 12,
@@ -100,14 +99,15 @@ Config.Lavori = {
             }
         }
     },
-    ['Lattaio'] = {
+    ['Ricerca materiale: Componenti di Metallo'] = {
         ['RaccoltaLavori'] = {
             ['coords'] = {
-                {['x'] = 2435.0541, ['y'] = 4761.6547, ['z'] = 34.321247},
-                {['x'] = 2441.4152, ['y'] = 4769.9394, ['z'] = 34.309768},
-                {['x'] = 2452.0332, ['y'] = 4760.6459, ['z'] = 34.305206},
-                {['x'] = 2453.8466, ['y'] = 4746.8813, ['z'] = 34.303798},
-                {['x'] = 2441.9177, ['y'] = 4745.6694, ['z'] = 34.303821},
+                {['x'] = -534.5558, ['y'] = -1707.3787, ['z'] = 19.5655},
+                {['x'] = -515.5816, ['y'] = -1697.8101, ['z'] = 19.3932},
+                {['x'] = -483.2959, ['y'] = -1667.0436, ['z'] = 19.1925},
+                {['x'] = -483.7244, ['y'] = -1676.2385, ['z'] = 19.4718},
+                {['x'] = -502.0379, ['y'] = -1702.1658, ['z'] = 19.3173},
+                --  -515.2525, -1726.0128, 19.1864, 115.3203 | -475.0097, -1736.9753, 18.6803, 93.6499 | -463.4437, -1728.8782, 18.6740, 307.2600 |
             },
             ['unique'] ='RaccoltaLavori Minatore',
             ['durata'] = 1450,
@@ -116,7 +116,7 @@ Config.Lavori = {
             ['anim'] = "stand_cash_in_bag_loop",
             ['propmodel'] = nil,
             ['props2'] = nil,
-            ['item'] = 'latte',
+            ['item'] = 'metalscrapcomp',
             ['count'] = 1,
             ['notify'] = 'Hai raccolto',
             ['Blips'] = {
@@ -127,16 +127,17 @@ Config.Lavori = {
         },
         ['ProcessoLavori'] = {
             ['coords'] = {
-                {['x'] = 2455.896, ['y'] = 4058.2595, ['z'] = 38.064666},
+                {['x'] = 1070.0715, ['y'] = -2005.6167, ['z'] = 32.0832},
+                --{['x'] = ['y'] = ['z'] = } 1069.0370, -2005.8275, 32.0828, 319.5138 | 1070.8380, -2006.1119, 32.0837, 313.9956 | 
             },
             ['unique'] ='ProcessoLavori Minatore',
-            ['durata'] = 1450,
+            ['durata'] = 6500,
             ['label'] = 'Processando',
             ['animdict'] = "mp_take_money_mg",
             ['anim'] = "stand_cash_in_bag_loop",
             ['propmodel'] = nil,
             ['props2'] = nil,
-            ['item'] = 'scatolalatte',
+            ['item'] = 'metalcomp',
             ['count'] = 2,
             ['notify'] = 'Hai processato',
             ['Blips'] = {
@@ -146,23 +147,19 @@ Config.Lavori = {
             }
         }
     },
-    ['Taglialegna'] = {
+    ['Realizzazione Forniture in Legno'] = {
         ['RaccoltaLavori'] = {
             ['coords'] = {
-                {['x'] = -549.7044, ['y'] = 5375.4995, ['z'] = 70.497573},
-                {['x'] = -553.8211, ['y'] = 5372.6333, ['z'] = 70.305732},
-                {['x'] = -554.6139, ['y'] = 5369.6699, ['z'] = 70.321884},
-                {['x'] = -530.361, ['y'] = 5372.3393, ['z'] = 70.447044},
-                {['x'] = -533.9656, ['y'] = 5373.7031, ['z'] = 70.489105},
+                {['x'] = 733.4575, ['y'] = -726.0303, ['z'] = 26.5566}
             },
             ['unique'] ='RaccoltaLavori Taglialegna',
-            ['durata'] = 1500,
+            ['durata'] = 3000,
             ['label'] = 'Raccogliendo',
             ['animdict'] = "mp_take_money_mg",
             ['anim'] = "stand_cash_in_bag_loop",
             ['propmodel'] = nil,
             ['props2'] = nil,
-            ['item'] = 'wood',
+            ['item'] = 'forniturepart',
             ['count'] = 1,
             ['notify'] = 'Hai raccolto',
             ['Blips'] = {
@@ -173,17 +170,17 @@ Config.Lavori = {
         },
         ['ProcessoLavori'] = {
             ['coords'] = {
-                {['x'] = -514.5082, ['y'] = 5263.2465, ['z'] = 80.653144},
+                {['x'] = 759.0367, ['y'] = -725.3082, ['z'] = 0.4461},
             },
             ['unique'] ='ProcessoLavori Taglialegna',
-            ['durata'] = 1500,
+            ['durata'] = 10000,
             ['label'] = 'Processando',
             ['animdict'] = "mp_take_money_mg",
             ['anim'] = "stand_cash_in_bag_loop",
             ['propmodel'] = nil,
             ['props2'] = nil,
-            ['item'] = 'cutted_wood',
-            ['count'] = 2,
+            ['item'] = 'forniturefinal',
+            ['count'] = 1,
             ['notify'] = 'Hai processato',
             ['Blips'] = {
                 ['sprite'] = 12,
