@@ -3,12 +3,7 @@
   "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\[fex]": false,
   "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\[fex]\\fe_extended": true,
   "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\[fex-addons]\\fex_addon": true,
-  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\esx-legacy": true,
-  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\esx-legacy\\esx-framework-esx-legacy-1d54dea": true,
-  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx]": false,
-  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx_addons]": false,
-  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\esx-legacy\\esx-framework-esx-legacy-1d54dea\\esx_example": false,
-  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\esx-legacy\\esx-framework-esx-legacy-1d54dea\\[SQL]": true,
-  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\oxmysql": false,
-  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\oxmysql\\oxmysql": true
+  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\fex_wl001": true,
+  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\fex_wl000": true,
+  "C:\\FivemEnv\\machine\\myRecipes\\[staging]\\fex_wl000\\client": false
 }

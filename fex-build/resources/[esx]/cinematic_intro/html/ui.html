@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>cinematic text effect</title>
+    <style>
+
+
+
+        body{
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #fdfcfd;
+            text-align: center;
+
+            display: none;
+            width: 100vw;
+            font-weight: 800;
+            overflow: hidden;
+            font-family: tahoma
+        }
+
+
+        .fly{
+            font-size: 7em;
+            margin: 35vh auto;
+            height: 20vh;
+            text-transform: uppercase;
+        }
+
+        .fly span {
+
+            display: block;
+            font-size: .4em;
+            opacity: .8;
+        }
+
+        .fly div{
+            position: absolute;
+            margin: 2vh 0;
+            opacity: 0;
+            left: 10vw;
+            width: 80vw;
+            animation: switch 32s linear;
+
+        }
+
+
+
+
+            .fly div:nth-child(1){
+                animation-delay: 83s;
+            }
+
+            .fly div:nth-child(2){
+                animation-delay: 92s;
+            }
+            .fly div:nth-child(3){
+                animation-delay: 115s;
+                animation-duration: 50s;
+            }
+            .fly div:nth-child(4){
+                animation-delay: 140s;
+                animation-duration: 50s;
+            }
+            .fly div:nth-child(5){
+                animation-delay: 150s;
+            }
+            .fly div:nth-child(6){
+                animation-delay: 120s;
+            }
+            .fly div:nth-child(7){
+                animation-delay: 24s;
+            }
+            .fly div:nth-child(8){
+                animation-delay: 28s;
+            }
+
+
+            @keyframes switch {
+                0%{
+                    opacity:  0;
+                    filter: blur(20px); transform: scale(12);
+                }
+
+                3%{
+                    opacity:  1;
+                    filter: blur(0); transform: scale(1);
+                }
+
+                10%{
+                    opacity:  1;
+                    filter: blur(0); transform: scale(0.9);
+                }
+                13%{
+                    opacity:  0;
+                    filter: blur(10px); transform: scale(0.1);
+                }
+                100%{
+                    opacity:  0;
+                    
+                }
+
+
+
+                
+            }
+
+            
+
+    </style>
+</head>
+<body>
+
+
+
+    <div class="fly">
+        <div><span>DA CHE PARTE</span>VUOI STARE?</div>
+        <div><span>DECIDI IL TUO DESTINO,</span>E PLASMA IL FUTURO DEL PAESE.</div>
+
+
+        <div><span>LO STATO DI SAN ANDREA</span>è SOTTO EMBARGO U.S.A.</div>
+
+        <div>MA LA CRISI DELLE RISORSE<span>HA SPINTO IL NORD AD INSORGERE</span></div> 
+        <div><span>CONTRO IL DITTATORE</span>E CONTRO GLI STRANIERI USURPATORI</div>
+        <div><span>DOPO CHE IL TEMUTO LEADER</span>"ODO ITAL" HA DICHIARATO L'AUTARCHIA<br><br></div>
+
+                
+        <div>StudioINDRI<span>PRESENTA</span></div>
+        <div>SILKROAD RPG<span></span></div>
+
+    </div>
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
