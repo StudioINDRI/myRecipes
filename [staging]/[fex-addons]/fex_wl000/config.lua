@@ -1,10 +1,11 @@
+--Attività Commerciali (fex_wlN)
 Config = {}
 Config.Allign = 'bottom-left'
 
 --Incarichi
 Config.Incarico = {
-    ['coords'] = {['x'] = 93.2961, ['y'] = -1304.7065, ['z'] =  1.5037}, 
-    ['spawnpoint'] = {['x'] = 86.9727, ['y'] = -1299.1919, ['z'] = 29.2364, ['h'] = 129.1007},   
+    ['coords'] = {['x'] = 1088.3604, ['y'] = -3101.4392, ['z'] = -39.0000},
+    ['spawnpoint'] = {['x'] = 86.9727, ['y'] = -1299.1919, ['z'] = 29.2364, ['h'] = 129.1007},
     ['vehicle'] = 'ratloader'
 }
 
@@ -12,7 +13,7 @@ Config.Incarico = {
 Config.PuntoVendita = {
 	PuntoVendita = {
 		Pos = {
-			{x = 92.3215, y = -1291.0798, z =  1.5037}
+			{x =1104.2338, y = -3102.3250, z = -39.0000}
 		}
 	}
 }
@@ -22,7 +23,7 @@ Config.BlipSprite = 474
 Config.BlipDisplay = 4
 Config.BlipScale = 0.90
 Config.BlipColour = 5
-Config.BlipName = "Magazzino Commerciale"   --Aggiungere nome attività
+Config.BlipName = "Missione Umanitaria S.A.N."   --Nome attività
 
 Config.KeyToOpenShop = 38													
 Config.ShopMarker = 27 														
