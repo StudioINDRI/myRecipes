@@ -1,4 +1,5 @@
 
+##  StudioINDRI 
 # F.E.X. (Fluid Economy eXtended) White Paper
 
 ---
@@ -46,5 +47,5 @@
     _ Accessibilità edifici avanzata tramite l’utilizzo di shells, IPLs e sistema di teleport giocatore.
     
     _ Template personalizzabile per intro animata con informazioni sulla trama editabili ed un meccanismo di scelta Fazione (e luogo di spawn) per i nuovi giocatori.
-#	myResources
+
  
