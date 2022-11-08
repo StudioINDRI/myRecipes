@@ -1,16 +1,16 @@
 --Attività Commerciali (fex_wlN)
-Config = {}
-Config.Allign = 'bottom-left'
+Config_000 = {}
+Config_000.Allign = 'bottom-left'
 
 --Incarichi
-Config.Incarico = {
+Config_000.Incarico = {
     ['coords'] = {['x'] = 1088.3604, ['y'] = -3101.4392, ['z'] = -39.0000},
     ['spawnpoint'] = {['x'] = 86.9727, ['y'] = -1299.1919, ['z'] = 29.2364, ['h'] = 129.1007},
     ['vehicle'] = 'ratloader'
 }
 
 --Magazzino
-Config.PuntoVendita = {
+Config_000.PuntoVendita = {
 	PuntoVendita = {
 		Pos = {
 			{x =1104.2338, y = -3102.3250, z = -39.0000}
@@ -18,21 +18,21 @@ Config.PuntoVendita = {
 	}
 }
 
-Config.EnablePuntoVenditaBlip = true
-Config.BlipSprite = 474
-Config.BlipDisplay = 4
-Config.BlipScale = 0.90
-Config.BlipColour = 5
-Config.BlipName = "Missione Umanitaria S.A.N."   --Nome attività
+Config_000.EnablePuntoVenditaBlip = true
+Config_000.BlipSprite = 474
+Config_000.BlipDisplay = 4
+Config_000.BlipScale = 0.90
+Config_000.BlipColour = 5
+Config_000.BlipName = "Missione Umanitaria S.A.N."   --Nome attività
 
-Config.KeyToOpenShop = 38													
-Config.ShopMarker = 27 														
-Config.ShopMarkerColor = { r = 255, g = 255, b = 0, a = 100 } 					
-Config.ShopMarkerScale = { x = 1.0, y = 1.0, z = 1.0 }  						
-Config.ShopDraw3DText = "Premi ~g~[E]~s~ per ~y~Import Export~s~"	
+Config_000.KeyToOpenShop = 38													
+Config_000.ShopMarker = 27 														
+Config_000.ShopMarkerColor = { r = 255, g = 255, b = 0, a = 100 } 					
+Config_000.ShopMarkerScale = { x = 1.0, y = 1.0, z = 1.0 }  						
+Config_000.ShopDraw3DText = "Premi ~g~[E]~s~ per ~y~Import Export~s~"	
 
 --Punto Vendita lista items:
-Config.ItemsPuntoVendita = {
+Config_000.ItemsPuntoVendita = {
 	--{ itemName = 'james_fishingrod', label = 'Canna da pesca', BuyPuntoVendita = true, BuyPrice = 100, SellPuntoVendita = true, SellPrice = 65 },
 	--{ itemName = 'james_fishingbait', label = 'Esche', BuyPuntoVendita = true, BuyPrice = 3, SellPuntoVendita = true, SellPrice = 1 },
 	--{ itemName = 'james_fish', label = 'Pesce', BuyPuntoVendita = false, BuyPrice = 500, SellPuntoVendita = true, SellPrice = 36 },
@@ -54,7 +54,7 @@ Config.ItemsPuntoVendita = {
 }
 
 
-Config.Lavori = {
+Config_000.Lavori = {
     ['Minatore'] = {
         ['RaccoltaLavori'] = {
             ['coords'] = {  --Coordinate punti raccolta

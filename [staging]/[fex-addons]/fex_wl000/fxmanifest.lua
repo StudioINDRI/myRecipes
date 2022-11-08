@@ -5,14 +5,14 @@ author 'StudioIndri'
 
 client_scripts {
     '@es_extended/locale.lua',
-    "config.lua",
+    "config/*.lua",
     "client/*.lua"
 }
 
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
 	'@es_extended/locale.lua',
-    "config.lua",
+    "config/*.lua",
     "server/main.lua",
     "server/import.lua"
 }
