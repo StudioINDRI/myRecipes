@@ -6,8 +6,7 @@ author 'StudioIndri'
 client_scripts {
     '@es_extended/locale.lua',
     "config.lua",
-    "client/main.lua",
-    "client/import.lua"
+    "client/*.lua"
 }
 
 server_scripts {
