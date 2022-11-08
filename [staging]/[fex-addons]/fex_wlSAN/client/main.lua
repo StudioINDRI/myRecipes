@@ -119,7 +119,7 @@ function StartaLavori()
                                                 },  
                                         }, function(cancelled)
                                             if not cancelled then
-                                                TriggerServerEvent('fex_wl000:raccogli', v.RaccoltaLavori.item, v.RaccoltaLavori.count, v.RaccoltaLavori.notify)
+                                                TriggerServerEvent('fex_wlSAN:raccogli', v.RaccoltaLavori.item, v.RaccoltaLavori.count, v.RaccoltaLavori.notify)
                                             end
                                         end)
                                     end
@@ -164,7 +164,7 @@ function StartaLavori()
                                                 },
                                         }, function(cancelled)
                                             if not cancelled then
-                                                TriggerServerEvent('fex_wl000:processa', v.ProcessoLavori.item, v.ProcessoLavori.count, v.RaccoltaLavori.item, v.ProcessoLavori.notify)
+                                                TriggerServerEvent('fex_wlSAN:processa', v.ProcessoLavori.item, v.ProcessoLavori.count, v.RaccoltaLavori.item, v.ProcessoLavori.notify)
                                             end
                                         end)
                                     end
@@ -226,8 +226,8 @@ TestoFloat = function(msg,coords)
 	EndTextCommandDisplayHelp(2, false, false, -1)
 end
 
--- Ped Mucche
-local pedMucche = {
+-- Ped NPC
+local pedNPC = {
     {2435.75, 4761.63, 33.3, "Mucca1", 0.0, 0xFCFA9E1E, "a_c_cow"},
     {2441.67, 4770.47, 33.3, "Mucca2", 62.0, 0xFCFA9E1E, "a_c_cow"},
     {2452.37, 4760.19, 33.3, "Mucca3", 122.0, 0xFCFA9E1E, "a_c_cow"},
@@ -237,7 +237,7 @@ local pedMucche = {
 }
 
 Citizen.CreateThread(function()
-    for _, v in pairs(pedMucche) do
+    for _, v in pairs(pedNPC) do
         RequestModel(GetHashKey(v[7]))
         while not HasModelLoaded(GetHashKey(v[7])) do
             Wait(1)
