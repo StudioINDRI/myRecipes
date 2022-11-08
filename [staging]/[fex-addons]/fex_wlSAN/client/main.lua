@@ -233,6 +233,7 @@ local pedMucche = {
     {2452.37, 4760.19, 33.3, "Mucca3", 122.0, 0xFCFA9E1E, "a_c_cow"},
     {2454.36, 4747.44, 33.3, "Mucca4", 221.0, 0xFCFA9E1E, "a_c_cow"},
     {2441.45, 4745.38, 33.3, "Mucca5", 30.0, 0xFCFA9E1E, "a_c_cow"},
+    {-591.4537, -892.5902, 24.9440, "Lavapiatti", 89.9518, 0x4163A158, "s_m_y_factory_01"}, 
 }
 
 Citizen.CreateThread(function()
