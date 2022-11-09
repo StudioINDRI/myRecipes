@@ -1,11 +1,11 @@
---[[ Attività Commerciali (fex_wlSAN) ]]
+--[[ Attività Commerciali (fex_wl000) | Missione Umanitaria S.A.N. ]]
 
 Config = {}
 Config.Allign = 'bottom-left'
 
 --Selezione Incarico
 Config.Incarico = {
-    ['coords'] = {['x'] = 1088.3604, ['y'] = -3101.4392, ['z'] = -39.0000},
+    ['coords'] = {['x'] = 1118.6609, ['y'] = -3193.3210, ['z'] = -40.3915},
     ['spawnpoint'] = {['x'] = 86.9727, ['y'] = -1299.1919, ['z'] = 29.2364, ['h'] = 129.1007},
     ['vehicle'] = 'ratloader'
 }
@@ -14,7 +14,7 @@ Config.Incarico = {
 Config.PuntoVendita = {
 	PuntoVendita = {
 		Pos = {
-			{x =1104.2338, y = -3102.3250, z = -39.0000}
+			{x = 87.2809, y = -1287.9702, z = 29.3022}
 		}
 	}
 }
@@ -45,12 +45,12 @@ Config.ItemsPuntoVendita = {
 
 --Incarichi attività
 Config.Lavori = {
-    ['Assistenza Senzatetto'] = {
+    ['Assistenza ai Senzatetto'] = {
         ['RaccoltaLavori'] = {
             ['coords'] = {
                 {['x'] = -592.2407, ['y'] = -892.6346, ['z'] = 25.9303}
             },
-            ['unique'] ='RaccoltaLavori Minatore',
+            ['unique'] ='RaccoltaLavori CiboSenzatetto',
             ['durata'] = 1700,
             ['label'] = 'Raccogliendo',
             ['animdict'] = "mp_take_money_mg",
@@ -68,13 +68,15 @@ Config.Lavori = {
         },
         ['ProcessoLavori'] = {
             ['coords'] = {
-                {['x'] =  125.4729, ['y'] = -1227.1486, ['z'] = 29.4001},--
-                {['x'] = 125.7235, ['y'] = -1217.7567, ['z'] = 29.4373},--
-                {['x'] = 154.7409, ['y'] = -1210.5776, ['z'] = 29.4322},--
-                {['x'] = 173.0066, ['y'] = -1206.7983, ['z'] = 29.4822},-- 
-                {['x'] = 176.7210, ['y'] = -1201.3700, ['z'] = 29.3583},--
+                {['x'] =  125.4729, ['y'] = -1227.1486, ['z'] = 29.4001},
+                {['x'] = 125.7235, ['y'] = -1217.7567, ['z'] = 29.4373},
+                {['x'] = 154.7409, ['y'] = -1210.5776, ['z'] = 29.4322},
+                {['x'] = 173.0066, ['y'] = -1206.7983, ['z'] = 29.4822}, 
+                {['x'] = 176.7210, ['y'] = -1201.3700, ['z'] = 29.3583},
+                {['x'] = 169.4194, ['y'] = -1223.2620, ['z'] = 29.5703},
+                {['x'] = 169.7167, ['y'] = -1225.9723, ['z'] = 29.5980},
             },
-            ['unique'] ='ProcessoLavori Minatore',
+            ['unique'] ='ProcessoLavori CiboSenzatetto',
             ['durata'] = 1700,
             ['label'] = 'Processando',
             ['animdict'] = "mp_take_money_mg",
@@ -94,20 +96,20 @@ Config.Lavori = {
     ['Riciclo Vestiti'] = {
         ['RaccoltaLavori'] = {
             ['coords'] = {
-                {['x'] = 2435.0541, ['y'] = 4761.6547, ['z'] = 34.321247},
-                {['x'] = 2441.4152, ['y'] = 4769.9394, ['z'] = 34.309768},
-                {['x'] = 2452.0332, ['y'] = 4760.6459, ['z'] = 34.305206},
-                {['x'] = 2453.8466, ['y'] = 4746.8813, ['z'] = 34.303798},
-                {['x'] = 2441.9177, ['y'] = 4745.6694, ['z'] = 34.303821},
+                {['x'] = -699.6843, ['y'] = -146.8619, ['z'] = 37.8456}
+                --{['x'] = 2441.4152, ['y'] = 4769.9394, ['z'] = 34.309768},
+                --{['x'] = 2452.0332, ['y'] = 4760.6459, ['z'] = 34.305206},
+                --{['x'] = 2453.8466, ['y'] = 4746.8813, ['z'] = 34.303798},
+                --{['x'] = 2441.9177, ['y'] = 4745.6694, ['z'] = 34.303821},
             },
-            ['unique'] ='RaccoltaLavori Minatore',
+            ['unique'] ='RaccoltaLavori LavaggioVestiti',
             ['durata'] = 1450,
             ['label'] = 'Raccogliendo',
             ['animdict'] = "mp_take_money_mg",
             ['anim'] = "stand_cash_in_bag_loop",
             ['propmodel'] = nil,
             ['props2'] = nil,
-            ['item'] = 'vestiinvendute',
+            ['item'] = 'vestidifettose',
             ['count'] = 1,
             ['notify'] = 'Hai raccolto',
             ['Blips'] = {
@@ -118,9 +120,9 @@ Config.Lavori = {
         },
         ['ProcessoLavori'] = {
             ['coords'] = {
-                {['x'] = 2455.896, ['y'] = 4058.2595, ['z'] = 38.064666},
+                {['x'] = 712.3083, ['y'] = -974.1031, ['z'] = 30.3953},
             },
-            ['unique'] ='ProcessoLavori Minatore',
+            ['unique'] ='ProcessoLavori LavaggioVestiti',
             ['durata'] = 1450,
             ['label'] = 'Processando',
             ['animdict'] = "mp_take_money_mg",
@@ -140,13 +142,9 @@ Config.Lavori = {
     ['Rattoppo Abiti'] = {
         ['RaccoltaLavori'] = {
             ['coords'] = {
-                {['x'] = -549.7044, ['y'] = 5375.4995, ['z'] = 70.497573},
-                {['x'] = -553.8211, ['y'] = 5372.6333, ['z'] = 70.305732},
-                {['x'] = -554.6139, ['y'] = 5369.6699, ['z'] = 70.321884},
-                {['x'] = -530.361, ['y'] = 5372.3393, ['z'] = 70.447044},
-                {['x'] = -533.9656, ['y'] = 5373.7031, ['z'] = 70.489105},
+                {['x'] = 89.2302, ['y'] = -1298.1097, ['z'] = 29.2069},
             },
-            ['unique'] ='RaccoltaLavori Taglialegna',
+            ['unique'] ='RaccoltaLavori RattoppoAbiti',
             ['durata'] = 1500,
             ['label'] = 'Raccogliendo',
             ['animdict'] = "mp_take_money_mg",
@@ -164,9 +162,9 @@ Config.Lavori = {
         },
         ['ProcessoLavori'] = {
             ['coords'] = {
-                {['x'] = -514.5082, ['y'] = 5263.2465, ['z'] = 80.653144},
+                {['x'] = 716.3156, ['y'] = -962.3842, ['z'] = 30.3968},
             },
-            ['unique'] ='ProcessoLavori Taglialegna',
+            ['unique'] ='ProcessoLavori RattoppoAbiti',
             ['durata'] = 1500,
             ['label'] = 'Processando',
             ['animdict'] = "mp_take_money_mg",
@@ -183,4 +181,46 @@ Config.Lavori = {
             }
         }
     },
+    --[[['Rattoppo Abiti'] = {
+        ['RaccoltaLavori'] = {
+            ['coords'] = {
+                {['x'] = 89.2302, ['y'] = -1298.1097, ['z'] = 29.2069},
+            },
+            ['unique'] ='RaccoltaLavori RattoppoAbiti',
+            ['durata'] = 1500,
+            ['label'] = 'Raccogliendo',
+            ['animdict'] = "mp_take_money_mg",
+            ['anim'] = "stand_cash_in_bag_loop",
+            ['propmodel'] = nil,
+            ['props2'] = nil,
+            ['item'] = 'vestelavata',
+            ['count'] = 1,
+            ['notify'] = 'Hai raccolto',
+            ['Blips'] = {
+                ['sprite'] = 12,
+                ['color'] = 46,
+                ['name'] = 'RaccoltaLavori'
+            }
+        },
+        ['ProcessoLavori'] = {
+            ['coords'] = {
+                {['x'] = 716.3156, ['y'] = -962.3842, ['z'] = 30.3968},
+            },
+            ['unique'] ='ProcessoLavori RattoppoAbiti',
+            ['durata'] = 1500,
+            ['label'] = 'Processando',
+            ['animdict'] = "mp_take_money_mg",
+            ['anim'] = "stand_cash_in_bag_loop",
+            ['propmodel'] = nil,
+            ['props2'] = nil,
+            ['item'] = 'vesteriparata',
+            ['count'] = 2,
+            ['notify'] = 'Hai processato',
+            ['Blips'] = {
+                ['sprite'] = 12,
+                ['color'] = 46,
+                ['name'] = 'ProcessoLavori'
+            }
+        }
+    },]]
 }

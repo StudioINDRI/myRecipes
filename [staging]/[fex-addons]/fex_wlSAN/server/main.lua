@@ -1,7 +1,7 @@
 local ESX = exports['es_extended']:getSharedObject()
 
-RegisterServerEvent('fex_wlSAN:raccogli')
-AddEventHandler('fex_wlSAN:raccogli',function(item, count, notifica)
+RegisterServerEvent('fex_wl000:raccogli')
+AddEventHandler('fex_wl000:raccogli',function(item, count, notifica)
     local xPlayer = ESX.GetPlayerFromId(source)
     if xPlayer then
         xPlayer.addInventoryItem(item, count)
@@ -11,8 +11,8 @@ AddEventHandler('fex_wlSAN:raccogli',function(item, count, notifica)
     end
 end)
 
-RegisterServerEvent('fex_wlSAN:processa')
-AddEventHandler('fex_wlSAN:processa',function(item, count, excangeItem, notifica)
+RegisterServerEvent('fex_wl000:processa')
+AddEventHandler('fex_wl000:processa',function(item, count, excangeItem, notifica)
     local xPlayer = ESX.GetPlayerFromId(source)
     if xPlayer then
         local itemCount = tonumber(xPlayer.getInventoryItem(excangeItem).count)
