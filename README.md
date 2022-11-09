@@ -3,6 +3,12 @@
 # F.E.X. (Fluid Economy eXtended) White Paper
 
 ---
+## Regole collaborazioni:
+ 1. NON MODIFICARE MAI IL PREPOSITORY PRINCIPALE.
+ 2. Creare un Branch personale del repository. 
+ 3. Clonare il repository sul proprio/i dispositivo/i.
+ 4. Richiedere il Marging tramite request.
+---
 
 - Cos’è FEX?
     
