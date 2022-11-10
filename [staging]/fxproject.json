@@ -20,7 +20,7 @@
       "restartOnChange": false
     },
     "fexmap.fxworld": {
-      "enabled": true
+      "enabled": false
     },
     "esx-legacy\\esx-framework-esx-legacy-1d54dea\\[esx]\\async": {
       "enabled": true,
