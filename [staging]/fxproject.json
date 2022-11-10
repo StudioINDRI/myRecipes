@@ -149,6 +149,10 @@
     "oxmysql\\oxmysql": {
       "enabled": true,
       "restartOnChange": true
+    },
+    "cinematic_intro": {
+      "enabled": false,
+      "restartOnChange": false
     }
   },
   "serverUpdateChannel": "recommended",
