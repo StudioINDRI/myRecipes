@@ -2,6 +2,7 @@ local ESX = exports['es_extended']:getSharedObject()
 local Currentlavoro = nil
 local blips = {}
 
+-- Registrazione Grid Marker
 Citizen.CreateThread(function()
     Citizen.Wait(1000)
     TriggerEvent('gridsystem:registerMarker', {
@@ -43,6 +44,7 @@ Citizen.CreateThread(function()
     })
 end)
 
+--Funzione Menu Impieghi
 function ApriMenuImpiego()
     local elements = {}
     for k,v in pairs(Config.Lavori) do
@@ -73,6 +75,7 @@ function ApriMenuImpiego()
     end)
 end
 
+--Funzione Avvio Incarico
 function StartaLavori()
     Citizen.CreateThread(function()
         while true do
@@ -179,6 +182,7 @@ function StartaLavori()
     end)
 end
 
+--Funzione Attivazione/Eliminazione Blips/Testi 
 function AttivaBlips()
     local ConfigCoords = Config.Lavori[Currentlavoro]
     local BlipRaccolta = ConfigCoords.RaccoltaLavori.coords
@@ -226,7 +230,7 @@ TestoFloat = function(msg,coords)
 	EndTextCommandDisplayHelp(2, false, false, -1)
 end
 
--- PedNPC
+--Configurazione Ped NPC
 local pedMucche = {
     {2435.75, 4761.63, 33.3, "Mucca1", 0.0, 0xFCFA9E1E, "a_c_cow"},
     {2441.67, 4770.47, 33.3, "Mucca2", 62.0, 0xFCFA9E1E, "a_c_cow"},
@@ -237,6 +241,7 @@ local pedMucche = {
     {-700.3133, -147.2428, 36.8456, "Commessa",  297.4185, 0xB6AA85CE, "u_f_y_comjane"},
 }
 
+-- Trigger Spawn Peds
 Citizen.CreateThread(function()
     for _, v in pairs(pedMucche) do
         RequestModel(GetHashKey(v[7]))

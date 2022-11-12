@@ -19,7 +19,7 @@ Config.PuntoVendita = {
 	}
 }
 
---Attività
+--Punto Vendita
 Config.EnablePuntoVenditaBlip = true
 Config.BlipSprite = 474
 Config.BlipDisplay = 4
@@ -33,7 +33,7 @@ Config.ShopMarkerColor = { r = 255, g = 255, b = 0, a = 100 }
 Config.ShopMarkerScale = { x = 1.0, y = 1.0, z = 1.0 }  						
 Config.ShopDraw3DText = "Premi ~g~[E]~s~ per ~y~Import Export~s~"	
 
---Vendita lista items:
+--Punto Vendita - lista items:
 Config.ItemsPuntoVendita = {
 	
 	{ itemName = 'partiricambioabiti', label = 'Parti Abito', BuyPuntoVendita = true, BuyPrice = 80, SellPuntoVendita = true, SellPrice = 80 },
